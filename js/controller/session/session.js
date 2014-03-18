@@ -96,8 +96,8 @@ var session = {
         }
 
         var stringTime = "minutes";
-        
-        if(parseInt(session.minuteExpira - session.minutesLeft) <= 0)
+
+        if(parseInt(session.minuteExpira - session.minutesLeft) <= 1)
             stringTime = "minute";
 
         for(var i = 0; i < session.changeTimeSessionUsers.length; ++i)
