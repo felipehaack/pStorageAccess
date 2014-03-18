@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>System Screen</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta name="viewport" content="width=1024">
+        
+        <link rel="stylesheet" href="css/reset/normalize.css">
+        <link rel="stylesheet" href="css/sistema/style.css">
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+
+        <script data-main="js/main" src="libs/requirejs/require.js"></script>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div class="head"></div>
+
+            <div class="menu">
+
+                <ul class="nav nav-tabs">
+                    
+                    <li style="font-weight: bold; float: right;">
+                        <a href="#" onclick="session.logout()">LOGOUT</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rep1">
+                <p>
+                    <h2>
+                        <div align="center"> Hello 
+                            <span class="username"></span>. 
+                            <br/>Your session will expire 
+                            <span class="timeSession"></span> 
+                            from now.
+                        </div>
+                    </h2>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

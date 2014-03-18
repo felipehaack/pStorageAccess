@@ -1,0 +1,65 @@
+body{
+
+    background-color: black !important;
+}
+
+    #container{
+
+        margin: 0 auto;
+        
+        margin-top: 30px;
+        margin-bottom: 10px;
+        
+        width: 1024px;
+        height: auto;
+
+        min-height: 100px;
+
+        border-radius: 15px 15px 0 0;
+
+        overflow: hidden;
+        position: relative;
+    }
+
+        #container .head{
+
+            width: 100%;
+            height: 256px;
+
+            overflow: hidden;       
+
+            background: url('../../imgs/system/head.jpg') no-repeat #888888;
+        }
+
+        #container .menu{
+
+            width: 100%;
+            height: 38px;
+
+            background-color: rgba(255, 255, 255, 0.5);
+
+            position: absolute;
+
+            top: 218px;
+        }
+
+         #container .rep1{
+             
+            background-color:#FFFFFF;
+
+            border-left-color:#FFFFFF;
+            border-left-style:solid;
+            border-left-width:2px;
+
+            border-right-color:#FFFFFF;
+            border-right-style:solid;
+            border-right-width:2px;
+
+            height: auto;
+
+            min-height:10px;
+
+            width:1020px;
+
+            overflow: hidden;
+          }
