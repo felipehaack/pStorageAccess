@@ -8,3 +8,5 @@ It's an example how you can to do an User Session With Time Expiration with Java
 Download it and use how u like :)
 
 Enjoy
+
+PS: username: teste and password: teste123
