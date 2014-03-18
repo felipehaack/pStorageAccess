@@ -2,7 +2,7 @@
 var session = {
     minutesLeft: 0,
     minuteRecursive: 1,
-    minuteExpira: 4,
+    minuteExpira: 50,
     changeTimeSessionUsers: [],
     flagChangeUserName: false,
     changeUserNames: [],
