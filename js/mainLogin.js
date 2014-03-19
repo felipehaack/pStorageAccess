@@ -5,7 +5,8 @@ require(["libs/zepto/zepto.min.js",
         "libs/md5/md5.js"], function() {
 
         require(["libs/phelipehs/phelipehs.js"], function(){
-
-            session.loadPageLogin();
+                
+                login.init();
+                session.loadPageLogin();
         });
 });
