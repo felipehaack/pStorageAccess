@@ -1,4 +1,3 @@
-
 var userLoginTeste = {
     username: 'teste',
     password: 'aa1bf4646de67fd9086cf6c79007026c'
@@ -57,11 +56,10 @@ var login = {
         $("#container").css('margin-top', calc + 'px');
 
         $('#container').show();
+    },
+    init: function(){
+        
+        login.centerContainer();
+        login.buildEvents();
     }
 };
-
-window.setTimeout(function() {
-
-    login.centerContainer();
-    login.buildEvents();
-}, 33);
