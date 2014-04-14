@@ -1,4 +1,4 @@
-phelipehs-html5-strg-js
+pStorageAccess
 ===============
 
 HTML5 for User Access Session With Expiration (Storage)
