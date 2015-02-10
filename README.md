@@ -1,16 +1,20 @@
 pStorageAccess
 ===============
 
-HTML5 for User Access Session With Expiration (Storage)
+An Example for User Access Session With Expiration (Storage).
 
-It's an example how you can to do an User Access Session With Time Expiration with JavaScript and new features of the HTML5.
+I created an example about how you can to use the Storage feature from HTML5 for user access session with time expiration.
 
-Download it and use how u like :)
+The example has:
 
-Enjoy
+1. User and password validation.
+2. Time limit for session expiration is about 20 minutes (you can to change this time).
+3. Validation user access to the system. (deny when user isn't allowed).
 
-PS: Use the next information to access the system:
+There's a default user and password for you test it.
+1. User: teste
+2. Password: teste123
 
-  Username: teste 
-  
-  Password: teste123
+I hope this example help you with something. Download and enjoy yourself.
+
+Thanks.
