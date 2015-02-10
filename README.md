@@ -1,7 +1,7 @@
 pStorageAccess
 ===============
 
-An Example for User Access Session With Expiration (Storage).
+An example for user access session with time expiration (Storage).
 
 I created an example about how you can to use the Storage feature from HTML5 for user access session with time expiration.
 
