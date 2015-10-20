@@ -16,6 +16,6 @@ There's a default user and password for you test it.
 1. User: teste
 2. Password: teste123
 
-I hope this example help you with something. Download and enjoy yourself.
+I hope this example help you with something.
 
 Thanks.
